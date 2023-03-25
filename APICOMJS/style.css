@@ -1,0 +1,62 @@
+/* Definindo a estetica do todo */
+* {
+    box-sizing: border-box;
+    font-family: 'Alkatra', cursive;
+}
+
+/* Definindo a estetica do corpo */
+body {
+    background-color: black;
+}
+
+/* Definindo a estetica do container */
+.container {
+    background-color: white;
+    height: 800px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+/* Definindo a posição do titulo */
+.container h1 {
+    text-align: center;
+}
+
+/* Definindo a posição do paragrafo */
+.container p {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+/* Definindo a poseção do botão */
+.input {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+/* Definindo a estetica do botão */
+#button_covid {
+    border: 1px solid blue;
+    background-color: transparent;
+    padding: 0 18px;
+    border-radius: 25px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+/* Definindo a estetica do botão */
+#button_covid:hover {
+    background-color: #0000f2;
+    color: #fff;
+    
+}
+#resultDeads{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+/* Colocando o rodapé no fim da pagina */
+footer {
+    border-top: 1px solid black;
+    text-align: center;
+    margin-top: 420px;
+}
