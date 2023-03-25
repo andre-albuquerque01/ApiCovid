@@ -15,6 +15,7 @@
 <body>
     <div class="container">
         <?php
+        error_reporting(0);
         include "processa.php";
         // compartilhamento de recursos de origens diferentes
         header('Access-Control-Allow-Origin: *');

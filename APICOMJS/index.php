@@ -17,6 +17,7 @@
 <body>
     <?php
     include "conexao.php";
+    error_reporting(0);
     date_default_timezone_set('America/Sao_Paulo');
     $data = date('Y-m-d H:i:s');
     if (isset($_GET['pais']) && isset($_GET['data'])) :
